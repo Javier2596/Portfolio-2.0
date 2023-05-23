@@ -1,4 +1,35 @@
+header {
+    
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px 10px;
+}
+
+nav {
+  text-align: right;
+  text-decoration: underline;
+  display: inline;
+  margin-top: 1%;
+  text-decoration: none;
+  
+}
+
 #avatar {
   width: 20%;
   height: 20%;
+}
+
+#para{
+  width: 60%; 
+  justify-content: center;
+  line-height: 200%;
+}
+
+#photoP {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+  justify-content:space-around;
 }
